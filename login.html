@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Login | ACM</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(bg6.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+            
+        }
+        .login-container {
+            max-width: 400px;
+            margin: 80px auto ;
+            padding: 30px;
+         
+            background: rgba(252, 252, 252, 0.3);
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 20px;
+            border-radius: 10px;
+        }
+          </style>
+</head>
+<body>
+    <div class=" text-white justify-content-between p-2 border-bottom " style="margin:0%;background-color:rgb(26, 26, 98);">
+        <img class="col-8" src="nitt.png" alt="">
+       <img class="col-3" src="acm_logo_tablet (1).svg" alt="">
+      
+      </div><br>
+      
+      <br>
+<div class="login-container  " style="color: black;">
+    <h2 class="text-center">Login</h2>
+    <form action="login.php" method="post">
+        <div class="form-group">
+            <label for="username"><h6>Username</h6></label>
+            <input type="text" class="form-control" name="username" id="username" placeholder="Username" required>
+        </div>
+        <div class="form-group">
+            <label for="password"><h6>Password</h6></label>
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="btn btn-secondary btn-block">Login</button>
+        <div class="text-center mt-3">
+            <a style="color: rgb(2, 7, 35);" href="forgot_password.html">Forgot password?</a>
+        </div>
+        <div class="text-center mt-3 ">
+            Already have an Account. <a style="color: rgb(2, 7, 35);" href="signup.html">Signup</a>
+        </div>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
